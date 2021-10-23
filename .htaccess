@@ -1,0 +1,15 @@
+#Pagina de inicio
+
+DirectoryIndex index.php
+
+#impedir lsitado de contenido de directorios
+
+Options All -Indexes
+
+#url amigables
+RewriteEngine On
+RewriteBase /pos_system/
+
+#RewriteRule ^(\w+)$ index.php?accion=$1
+
+RewriteRule ^([a-zA-Z0-9-/]+)$ index.php?accion=$1
