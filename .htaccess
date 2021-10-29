@@ -8,7 +8,7 @@ Options All -Indexes
 
 #url amigables
 RewriteEngine On
-RewriteBase /pos_system/
+RewriteBase /sistemapos/
 
 #RewriteRule ^(\w+)$ index.php?accion=$1
 

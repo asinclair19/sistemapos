@@ -1,4 +1,4 @@
-let pathRoot = 'http://localhost/pos_system/';
+let pathRoot = 'http://localhost/sistemapos/';
 
 //AJAX
 function AsynCall(url, datos){
